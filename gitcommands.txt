@@ -1,0 +1,46 @@
+#To configure user name:
+git config --global user.name "Keshav, Jadhav"
+#To Configure email id:
+git config --global user.email "keshav14lakhs@gmail.com"
+
+#To check commands executed successfully or not
+
+git config --list
+
+#Git Help
+
+git help <Command Name>
+example : git help add
+
+#Create First Git Repository or Project
+#Initialise the directory into Git
+git init
+
+#to Show hidden folder / files in gitbash
+ls -la
+
+#to check the log of all changes
+
+git log
+
+
+
+git config --global core.editor "\"C:\Program Files (x86)\Notepad++.exe\""
+
+# difference in file 
+
+git diff
+git diff --staged
+
+
+#delete file in GIT
+
+git rm <filename>
+git rm gitcommands.txt
+
+#Connecting Git and Github 
+
+git init
+git remote add origin "https://github.com/keshav14lakhs/GitNGitHubTraining.git"
+
+checking for pull command working
